@@ -49,7 +49,7 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
     if not os.path.isfile(args.bagfile):
-        print(("Bag file " + args.bagfile + " does not exist."))
+        print(("Bag file " + args.bagfile + " does not exist!"))
         sys.exit()
 
     utilities.get_topic_rates(
