@@ -113,8 +113,8 @@ if __name__ == "__main__":
         action="store_true",
     )
 
-    parser.add_argument("csv_a", help="input A CSV filename")
-    parser.add_argument("csv_b", help="input B CSV filename")
+    parser.add_argument("csv_a", help="input A CSV Filename")
+    parser.add_argument("csv_b", help="input B CSV Filename")
     parser.add_argument("csv_out", help="output joined CSV filename")
 
     args = parser.parse_args()
